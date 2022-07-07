@@ -23,7 +23,7 @@
 
   &__list {
     display: flex;
-    min-height: 410px;
+    min-height: 350px;
 
     @include media("max", "lg") {
       flex-direction: column;

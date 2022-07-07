@@ -47,6 +47,13 @@
     strong {
       font-weight: 600;
     }
+    span {
+      display: block;
+      margin-top: 10px;
+
+      font-size: var(--fs-20-16);
+      color: $color-red;
+    }
   }
 
   &__startDate {
@@ -63,7 +70,7 @@
 
   .slider {
     height: 700px;
-		height: calc(100vh - 180px);
+    height: calc(100vh - 180px);
 
     @include media("max", "lg") {
       height: 280px;
@@ -84,7 +91,7 @@
 
     &__img-wrap {
       height: 700px;
-			height: calc(100vh - 180px);
+      height: calc(100vh - 180px);
       overflow: hidden;
 
       border-radius: 4px;
@@ -168,7 +175,7 @@
       .slider__img-wrap {
         width: 29%;
         height: 500px;
-				height: calc(100vh - 420px);
+        height: calc(100vh - 420px);
 
         @include media("max", "lg") {
           width: 100%;

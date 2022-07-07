@@ -1,7 +1,7 @@
 <header class="header">
 	<div class="container">
 		<div class="header__wrap">
-			<h1 class="invisible-container">Motion дизайнер Offline Re-design</h1>
+			<h1 class="invisible-container">Motion дизайнер Online Re-design</h1>
 			{% include "../../../components/logo/logo.nunj" %}
 			<nav class="header__nav nav">
 				<ul class="nav__list">

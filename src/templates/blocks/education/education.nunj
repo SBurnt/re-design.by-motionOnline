@@ -4,9 +4,9 @@
 			<h2 class="section__title white">как проходит обучение?</h2>
 			<ul class="education__list accordion__list">
 				<li class="education__item accordion__item open">
-					<span class="education__title">Аудиторные занятия.</span>
+					<span class="education__title">Видео уроки.</span>
 					<div class="education__info accordion__content" aria-hidden="false">
-						<p class="education__desc">Обучение проходит в классе, оно включает в себя как изучение теоретического блока, так и выполнение практических работ.</p>
+						<p class="education__desc">Вы смотрите видео-уроки и выполнятете домашние задания.</p>
 					</div>
 					<button class="btn education__btn accordion__control" aria-expanded="true">
 						<span class="education__btn-plus"></span>
@@ -14,9 +14,9 @@
 				</li>
 
 				<li class="education__item accordion__item">
-					<span class="education__title">Выполнение домашних заданий.</span>
+					<span class="education__title">Еженедельные онлайн-консультации с преподавателем и чат в телеграм канале.</span>
 					<div class="education__info accordion__content" aria-hidden="true">
-						<p class="education__desc">В процессе обучения предмусмотрены домашние задания, для закрепления полученных навыков.</p>
+						<p class="education__desc">Один раз в неделю проходит онлайн консультация с преподавателем, вы можете уточнять любые вопросы по материалам, домашним заданиям.</p>
 					</div>
 					<button class="btn education__btn accordion__control" aria-expanded="false">
 						<span class="education__btn-plus"></span>
@@ -24,9 +24,9 @@
 				</li>
 
 				<li class="education__item accordion__item">
-					<span class="education__title">Работа над портфолио.</span>
+					<span class="education__title">Онлайн-проверка домашних заданий и обратная связь от эсперта.</span>
 					<div class="education__info accordion__content" aria-hidden="true">
-						<p class="education__desc">Каждый ученик с первых занятий начинает работать над проектами, которые сможет сформировать в свое портфолио.</p>
+						<p class="education__desc">Еженедельно проходит онлайн проверка ДЗ, в формате живого общения преподаватель делает дизайн-ревью работ.</p>
 					</div>
 					<button class="btn education__btn accordion__control" aria-expanded="false">
 						<span class="education__btn-plus"></span>

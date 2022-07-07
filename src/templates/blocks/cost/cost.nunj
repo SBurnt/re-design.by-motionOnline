@@ -36,10 +36,10 @@
 					<div class="item__wrapper">
 						<span class="item__title">Полный курс</span>
 						<div class="item__duration">Длительность:
-							<span>6 месяцев</span>
+							<span>4 месяца</span>
 						</div>
 						<div class="item__start">Старт курса:
-							<span>21 августа</span>
+							<span>10 августа</span>
 						</div>
 						<p class="item__desc">Стоимость при уплате в 6 взносов - 345 руб/мес.</p>
 						<button class="btn red item__btn js-btn-scroll-to-form" data-scroll-block="form-scroll" data-type="Полный курс">купить</button>
