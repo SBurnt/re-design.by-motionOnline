@@ -1,0 +1,140 @@
+.cost {
+  &__wrap-title {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
+
+    @include media("max", "xl") {
+      flex-direction: column;
+    }
+    @include media("max", "md") {
+      margin-bottom: 30px;
+    }
+  }
+
+  .section__title {
+    margin-bottom: 0;
+
+    white-space: nowrap;
+
+    @include media("max", "md") {
+      margin-right: auto;
+      margin-bottom: 30px;
+      margin-left: 0;
+    }
+  }
+
+  .section__subtitle {
+    width: 100%;
+    max-width: 1120px;
+
+    @include media("max", "xl") {
+      order: 1;
+    }
+  }
+
+  &__list {
+    display: flex;
+		justify-content: center;
+    flex-wrap: wrap;
+
+    column-gap: 30px;
+
+    @include media("max", "lg") {
+      justify-content: center;
+
+      column-gap: 20px;
+
+      row-gap: 20px;
+    }
+    @include media("max", "md") {
+      column-gap: 16px;
+
+      row-gap: 16px;
+    }
+
+    row-gap: 30px;
+  }
+
+  &__item {
+    width: calc(100% / 3 - 20px);
+
+    @include media("max", "lg") {
+      width: calc(100% / 2 - 10px);
+    }
+    @include media("max", "md") {
+      width: 100%;
+    }
+  }
+
+  .item {
+    padding: 40px;
+
+    background-color: #ffffff;
+    border-radius: 4px;
+
+    transition: all 0.1s ease-in;
+
+    @include media("max", "xl") {
+      padding: 30px;
+    }
+    @include media("max", "md") {
+      padding: 30px 16px;
+    }
+
+    &:hover {
+      filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.1));
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    &__btn {
+      width: 100%;
+      margin-top: auto;
+    }
+
+    &__title {
+      margin-bottom: 30px;
+
+      font-weight: 600;
+      font-size: var(--fs-28-20);
+      line-height: 120%;
+
+      @include media("max", "md") {
+        margin-bottom: 20px;
+      }
+    }
+
+    &__duration,
+    &__start {
+      margin-bottom: 10px;
+
+      font-size: var(--fs-16-14);
+      line-height: 160%;
+      color: rgba(0, 0, 0, 0.8);
+
+      span {
+        margin-left: 10px;
+
+        font-weight: 600;
+        color: $color-red;
+      }
+    }
+
+    &__desc {
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+      font-size: var(--fs-19-16);
+      line-height: 160%;
+
+      @include media("max", "md") {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

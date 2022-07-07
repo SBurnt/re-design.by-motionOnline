@@ -1,0 +1,72 @@
+<section class="teachers" id="teachers-scroll">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__subtitle">
+				<strong>кураторы и преподаВАТЕЛИ</strong>
+			</h2>
+			<div class="teachers__slider">
+				<!-- the photo of the teacher changes in two places, for the mobile version in the main slider, for the desktop version in the thumbs -->
+				<div class="swiper-container teachers__slider-info js-slider-teachers-init">
+					<ul class="swiper-wrapper teachers__list">
+						<li class="swiper-slide teachers__item">
+							<div class="teachers__img-wrap">
+								<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/шварко.png" width="340" height="300" loading="lazy" alt="Павел Шварко">
+							</div>
+							<span class="teachers__name">Павел Шварко</span>
+							<span class="teachers__experience">Motion Designer, диктор, фрилансер.</span>
+							<p class="teachers__desc">Более сотни работающих рекламных роликов, опыт работы 6 лет.</p>
+						</li>
+						{# <li class="swiper-slide teachers__item">
+							<div class="teachers__img-wrap">
+								<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/кахно-removebg-preview.png" width="340" height="300" loading="lazy" alt="Евгения Кахно">
+							</div>
+							<span class="teachers__name">Евгения Кахно</span>
+							<span class="teachers__experience">Более 6-ти лет опыта</span>
+							<p class="teachers__desc">Художник, реставратор, педагог, дизайнер. Окончила БГУКИ, факультет традиционной белорусской культуры и современного искусства. За время обучения пробовала себя в разным видах творчества, что и помогло сформировать свой авторский почерк в нынешнем виде деятельности. Принимала участие в международных творческих проектах. На данный момент занимаюсь развитием собственного бренда интерьерных арт-обьектов. Безумно люблю вдохновлять и учить видеть прекрасное в простых вещах окружающих нас ежесекундно.</p>
+						</li>
+						<li class="swiper-slide teachers__item">
+							<div class="teachers__img-wrap">
+								<img class="teachers__img lazyload" src="#" data-src="assets/images/main/teachers/петринч-removebg-preview.png" width="340" height="300" loading="lazy" alt="Елена Петринич">
+							</div>
+							<span class="teachers__name">Елена Петринич</span>
+							<span class="teachers__experience">Куратор и преподаватель программы</span>
+							<p class="teachers__desc">Более 5 лет преподавала теорию и практику интерьерного дизайна, а также AutoCad и 3dsMax. Автор курсов по теории дизайна интерьера, AutoCad и 3dsMax. Два года сотрудничала с минским проектом "Открытый лекторий" - вела лекции по истории архитектуры, истории искусств и истории дизайна - больше 20 лекций по истории дизайна и архитектуры Соавтор курсов по интерьерному дизайну и визуализации в московской академии дизайн профессий PentaSchool Работала ведущим дизайнером интерьера в Дизайн-студии Zox.</p>
+						</li> #}
+					</ul>
+					<div class="slider__arrows-wrap">
+						<button class="btn slider__arrows-prev">
+							<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7 13L1 7L7 1" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</button>
+						<button class="btn slider__arrows-next">
+							<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 13L7 7L1 1" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</button>
+					</div>
+				</div>
+				<div class="swiper-container teachers__slider-thumbs js-slider-teachers-thumbs-init">
+					<ul class="swiper-wrapper teachers__list-thumbs">
+						<!-- be sure to add a class 'swiper-slide-thumb-active' to the first item -->
+						<li class="swiper-slide teachers__item-thumbs swiper-slide-thumb-active">
+							<div class="teachers__img-wrap-thumbs">
+								<img class="teachers__img-thumbs lazyload" src="#" data-src="assets/images/main/teachers/шварко.png" width="300" height="300" loading="lazy" alt="Павел Шварко">
+							</div>
+						</li>
+						{# <li class="swiper-slide teachers__item-thumbs">
+							<div class="teachers__img-wrap-thumbs">
+								<img class="teachers__img-thumbs lazyload" src="#" data-src="assets/images/main/teachers/кахно-removebg-preview.png" width="300" height="300" loading="lazy" alt="Евгения Кахно">
+							</div>
+						</li>
+						<li class="swiper-slide teachers__item-thumbs">
+							<div class="teachers__img-wrap-thumbs">
+								<img class="teachers__img-thumbs lazyload" src="#" data-src="assets/images/main/teachers/петринч-removebg-preview.png" width="300" height="300" loading="lazy" alt="Елена Петринич">
+							</div>
+						</li> #}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

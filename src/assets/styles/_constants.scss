@@ -1,0 +1,61 @@
+$color-primary: #000000;
+$color-grey: #7b7771;
+$color-red: #e30713;
+
+// bg
+$bg-body: #f7f6f2;
+$bg-body-dark: #f6eee3;
+$bg-modals-overlay: rgba(255, 255, 255, 0.3);
+
+// fonts
+$inter: "Inter", "Montserrat", "Times New Roman", sans-serif;
+$raleway: "Raleway", "Montserrat", "Times New Roman", sans-serif;
+
+// modal
+$color-gray: #a0a0a0;
+$bg-dark: #050505;
+$bg-gray: #1c1a1a;
+
+:root {
+  // 16px = maxPX, 14px = minPX, 2 = maxPX - minPX
+  --fs-16-14: min(16px, calc(14px + 2 * (100vw / 1920)));
+  --fs-18-14: min(18px, calc(14px + 4 * (100vw / 1920)));
+  --fs-19-16: min(19px, calc(16px + 3 * (100vw / 1920)));
+  --fs-20-16: min(20px, calc(16px + 4 * (100vw / 1920)));
+  --fs-20-18: min(20px, calc(18px + 2 * (100vw / 1920)));
+  --fs-22-18: min(22px, calc(18px + 4 * (100vw / 1920)));
+  --fs-23-16: min(23px, calc(16px + 7 * (100vw / 1920)));
+  --fs-24-16: min(24px, calc(16px + 8 * (100vw / 1920)));
+  --fs-24-20: min(24px, calc(20px + 4 * (100vw / 1920)));
+  --fs-28-20: min(28px, calc(20px + 8 * (100vw / 1920)));
+  --fs-32-16: min(32px, calc(16px + 16 * (100vw / 1920)));
+  --fs-32-18: min(32px, calc(18px + 14 * (100vw / 1920)));
+  --fs-32-20: min(32px, calc(20px + 12 * (100vw / 1920)));
+  --fs-32-24: min(32px, calc(24px + 8 * (100vw / 1920)));
+  --fs-35-22: min(35px, calc(22px + 13 * (100vw / 1920)));
+  --fs-40-22: min(40px, calc(22px + 18 * (100vw / 1920)));
+	--fs-55-30: min(55px, calc(30px + 25 * (100vw / 1920)));
+  --fs-65-35: min(65px, calc(35px + 30 * (100vw / 1920)));
+  --mr-100-40: min(100px, calc(40px + 60 * (100vw / 1920)));
+
+  @media (max-width: 767.98px) {
+    --fs-16-14: calc(14px + (2 + 2 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-18-14: calc(14px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-19-16: calc(16px + (3 + 3 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-20-16: calc(16px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-20-18: calc(18px + (2 + 2 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-22-18: calc(18px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-23-16: calc(16px + (7 + 7 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-24-16: calc(16px + (8 + 8 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-24-20: calc(20px + (4 + 4 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-28-20: calc(20px + (8 + 8 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-16: calc(16px + (16 + 16 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-18: calc(18px + (14 + 14 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-20: calc(20px + (12 + 12 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-32-24: calc(24px + (8 + 8 * 0.7) * ((100vw - 360px) / 1920));
+		--fs-35-22: calc(22px + (13 + 13 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-40-22: calc(22px + (18 + 18 * 0.7) * ((100vw - 360px) / 1920));
+		--fs-55-30: calc(30px + (25 + 25 * 0.7) * ((100vw - 360px) / 1920));
+    --fs-65-35: calc(35px + (30 + 30 * 0.7) * ((100vw - 360px) / 1920));
+  }
+}

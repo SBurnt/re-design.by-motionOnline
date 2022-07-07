@@ -1,0 +1,38 @@
+<section class="education" id="education-scroll">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title white">как проходит обучение?</h2>
+			<ul class="education__list accordion__list">
+				<li class="education__item accordion__item open">
+					<span class="education__title">Аудиторные занятия.</span>
+					<div class="education__info accordion__content" aria-hidden="false">
+						<p class="education__desc">Обучение проходит в классе, оно включает в себя как изучение теоретического блока, так и выполнение практических работ.</p>
+					</div>
+					<button class="btn education__btn accordion__control" aria-expanded="true">
+						<span class="education__btn-plus"></span>
+					</button>
+				</li>
+
+				<li class="education__item accordion__item">
+					<span class="education__title">Выполнение домашних заданий.</span>
+					<div class="education__info accordion__content" aria-hidden="true">
+						<p class="education__desc">В процессе обучения предмусмотрены домашние задания, для закрепления полученных навыков.</p>
+					</div>
+					<button class="btn education__btn accordion__control" aria-expanded="false">
+						<span class="education__btn-plus"></span>
+					</button>
+				</li>
+
+				<li class="education__item accordion__item">
+					<span class="education__title">Работа над портфолио.</span>
+					<div class="education__info accordion__content" aria-hidden="true">
+						<p class="education__desc">Каждый ученик с первых занятий начинает работать над проектами, которые сможет сформировать в свое портфолио.</p>
+					</div>
+					<button class="btn education__btn accordion__control" aria-expanded="false">
+						<span class="education__btn-plus"></span>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

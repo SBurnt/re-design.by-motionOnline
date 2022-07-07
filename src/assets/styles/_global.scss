@@ -1,0 +1,160 @@
+.clearfix {
+  &:after {
+    content: " ";
+
+    display: block;
+    clear: both;
+    height: 0;
+
+    font-size: 0;
+
+    visibility: hidden;
+  }
+}
+
+.invisible-container {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: -1;
+
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.no-pe {
+  pointer-events: none;
+}
+
+.static-text {
+  p {
+    margin-bottom: 1.4em;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+a,
+a:visited {
+  color: $color-primary;
+}
+
+.btn {
+  display: inline-block;
+  width: max-content;
+
+  line-height: 100%;
+  color: $color-primary;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  &.red {
+    padding: 18px 49px;
+
+    font-weight: 700;
+    font-size: var(--fs-20-18);
+    line-height: 120%;
+    color: #ffffff;
+    text-transform: uppercase;
+
+    background: $color-red;
+    border-radius: 4px;
+
+    transition: all 0.1s ease-in;
+
+    @include media("max", "md") {
+      padding: 16px 46px;
+    }
+    @include media("max", "sm") {
+      width: 100%;
+      padding: 16px;
+    }
+    &:hover {
+      box-shadow: 0 0 18px rgba(227, 7, 19, 0.4);
+    }
+  }
+}
+
+.section__inner {
+  padding: 60px 0;
+
+  @include media("max", "lg") {
+    padding: 50px 0;
+  }
+  @include media("max", "md") {
+    padding: 40px 0;
+  }
+
+  &.line {
+    border-bottom: 2px solid #d8d6d6;
+  }
+}
+
+.section__title {
+  display: block;
+  width: max-content;
+  margin-bottom: 40px;
+  padding: 7px 17px;
+
+  font-weight: 700;
+  font-size: var(--fs-16-14);
+  line-height: 140%;
+  text-align: center;
+  color: $color-red;
+  text-transform: uppercase;
+
+  border: 2px solid $color-red;
+  border-radius: 40px;
+
+  @include media("max", "md") {
+    margin-bottom: 30px;
+    padding: 6px 14px;
+  }
+
+  &.left {
+    margin-right: auto;
+  }
+
+  &.right {
+    margin-left: auto;
+  }
+
+  &.white {
+    color: #ffffff;
+
+    border-color: #ffffff;
+  }
+}
+
+.section__subtitle {
+  display: block;
+
+  font-weight: 300;
+  font-size: var(--fs-35-22);
+  line-height: 120%;
+  color: $color-grey;
+  text-transform: uppercase;
+
+  strong {
+    font-weight: 600;
+    color: $color-primary;
+  }
+
+  &.left {
+    text-align: left;
+  }
+
+  &.right {
+    margin-left: auto;
+
+    text-align: right;
+  }
+}

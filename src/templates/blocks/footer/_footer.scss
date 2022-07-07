@@ -1,0 +1,9 @@
+.footer {
+  padding: 30px 0;
+
+  background-color: $bg-body-dark;
+
+  @include media("max", "md") {
+    padding: 16px 0;
+  }
+}

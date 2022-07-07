@@ -1,0 +1,23 @@
+<section class="certificate">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title right">официальные документы</h2>
+			<div class="certificate__wrapper">
+				<h2 class="section__subtitle">
+					<strong>сертификат по завершении</strong>
+				</h2>
+				<ul class="certificate__list">
+					<li class="certificate__item">Сертификат о прохождении обучения дизайну</li>
+					<li class="certificate__item">Содействие в трудоустройстве и стажировке</li>
+					<li class="certificate__item">Самостоятельно реализованные проекты в вашем портфолио</li>
+					<li class="certificate__item">Тусовка специалистов и полезных знакомств</li>
+				</ul>
+				<div class="certificate__img-wrap">
+					<div class="certificate__img-cont">
+						<img class="certificate__img lazyload" src="#" data-src="assets/images/main/certificate2.jpg" width="680" height="480" loading="lazy" alt="сертификат">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

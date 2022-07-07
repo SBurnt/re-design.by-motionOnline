@@ -1,0 +1,52 @@
+.whoWork {
+  .section__subtitle {
+    margin-bottom: 60px;
+
+    @include media("max", "lg") {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__list {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 18px 0;
+
+    font-weight: 600;
+    font-size: var(--fs-24-16);
+    line-height: 120%;
+
+    border-bottom: 2px solid #d8d6d6;
+
+    @include media("max", "lg") {
+      padding: 10px 0;
+    }
+
+    &:first-child {
+      border-top: 2px solid #d8d6d6;
+    }
+  }
+
+  &__title {
+    padding-right: 15px;
+  }
+
+  &__salary {
+    display: flex;
+    align-items: baseline;
+    span {
+      margin-left: 10px;
+
+      font-size: var(--fs-35-22);
+      font-family: $raleway;
+      color: $color-red;
+    }
+  }
+}

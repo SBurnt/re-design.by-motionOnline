@@ -1,0 +1,182 @@
+@mixin b {
+  content: " ";
+  position: absolute;
+
+  display: block;
+}
+
+@mixin hide-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+  opacity: 0;
+
+  -webkit-appearance: button;
+}
+
+@mixin hide-input-file {
+  @include hide-input;
+
+  right: 0;
+  left: auto;
+
+  width: auto;
+  height: auto;
+
+  font-size: 100px;
+}
+
+/* Grid */
+@mixin cols($cols, $max-cols) {
+  width: (100% / $max-cols * $cols);
+}
+
+@mixin offset($offset-cols, $max-cols) {
+  @if $offset-cols == 0 {
+    margin-left: 0;
+  } @else {
+    margin-left: (100% / $max-cols * $offset-cols);
+  }
+}
+
+@mixin text-overflow {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin letterSpacing($interval) {
+  letter-spacing: unquote(($interval / 1000) + "em");
+}
+
+@mixin cover {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+@mixin retina {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin box {
+  box-sizing: border-box;
+}
+
+@mixin ti {
+  overflow: hidden;
+
+  text-indent: -999em;
+}
+
+@mixin placeholder {
+  &:-ms-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &::placeholder {
+    @content;
+  }
+}
+
+@mixin scrollbar {
+  & ::-moz-scrollbar {
+    @content;
+  }
+  & ::-webkit-scrollbar {
+    @content;
+  }
+  & ::scrollbar {
+    @content;
+  }
+}
+
+@mixin scrollbar-track {
+  & ::-moz-scrollbar-track {
+    @content;
+  }
+  & ::-webkit-scrollbar-track {
+    @content;
+  }
+  & ::scrollbar-track {
+    @content;
+  }
+}
+
+@mixin scrollbar-thumb {
+  & ::-moz-scrollbar-thumb {
+    @content;
+  }
+  & ::-webkit-scrollbar-thumb {
+    @content;
+  }
+  & ::scrollbar-thumb {
+    @content;
+  }
+}
+
+@mixin scrollbar-track-piece {
+  & ::-moz-scrollbar-track-piece {
+    @content;
+  }
+  & ::-webkit-scrollbar-track-piece {
+    @content;
+  }
+  & ::scrollbar-track-piece {
+    @content;
+  }
+}
+
+@mixin section__title($text-align: center, $el-pos: 50%, $trans: -50%) {
+  position: relative;
+
+  margin-bottom: 70px;
+
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: $text-align;
+  text-transform: uppercase;
+
+  @include media("max", "lg") {
+    margin-bottom: 40px;
+
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: $el-pos;
+
+    width: 100px;
+    height: 2px;
+
+    background: $color-primary;
+    transform: translateX($trans);
+
+    @include media("max", "lg") {
+      bottom: -10px;
+    }
+  }
+}

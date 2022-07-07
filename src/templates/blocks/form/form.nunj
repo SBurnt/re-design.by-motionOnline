@@ -1,0 +1,36 @@
+<section class="form">
+	<div class="container">
+		<div class="section__inner">
+			<div class="form__content" id="form-scroll">
+				<h2 class="section__subtitle">
+					<strong>Записаться на курс</strong><br> или получить <strong>бесплатную консультацию</strong>
+				</h2>
+				<form class="form__feedback" method="POST" data-netlify="true">
+					<label class="form__label">
+						<input class="form__input input-name" type="text" name="name" onkeyup="this.setAttribute('value', this.value);" value>
+						<span class="form__input-placeholder">Имя</span>
+					</label>
+					<label class="form__label">
+						<input class="form__input input-tel" type="tel" inputmode="tel" name="tel" onkeyup="this.setAttribute('value', this.value);" value>
+						<span class="form__input-placeholder">Телефон</span>
+					</label>
+					<label class="form__label">
+						<input class="form__input input-email" type="email" name="email" onkeyup="this.setAttribute('value', this.value);" value>
+						<span class="form__input-placeholder">Электронная почта</span>
+					</label>
+					<input class="input-type" type="hidden" name="type" value="Консультация">
+					<button class="btn red form__btn-send">записаться на курс</button>
+				</form>
+				<p class="form__thanks">Спасибо, ваше сообщение отправлено, наши менеджеры скоро свяжутся с вами.</p>
+			</div>
+			<div class="form__img-wrap">
+				{# <img class="form__img lazyload" src="#" data-src="assets/images/main/form-feedback.jpg" width="900" height="600" loading="lazy" alt=""> #}
+				<div class="full-img__video">
+					<video class="video" loop autoplay muted playsinline webkit-playinginline>
+						<source src="assets/images/main/video01.mp4" type="video/mp4"/>
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

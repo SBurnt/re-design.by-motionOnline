@@ -1,0 +1,80 @@
+<section class="skills">
+	<div class="container">
+		<div class="section__inner top">
+			<h2 class="section__subtitle right">
+				<strong>Навыки</strong> которыми вы овладеете, <strong>после завершения курса</strong>
+			</h2>
+		</div>
+	</div>
+	<div class="skills__slider">
+		<div class="section__inner bottom">
+			<div class="slider">
+				<div class="swiper-container js-slider-skills-init">
+					<div class="swiper-wrapper slider__items">
+						<div class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/skills/skills-01.jpg" width="790" height="550" loading="lazy" alt="design">
+							</div>
+							<div class="slider__content">
+								<div class="slider__desc-wrap">
+									<span class="slider__desc-numb">01</span>
+									<p class="slider__desc">Овладеете инструментами After Effects,  Premiere Pro и Cinema 4D и поймете, какие из них нужны для решения конкретных задач.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/skills/skills-02.jpg" width="790" height="550" loading="lazy" alt="design">
+							</div>
+							<div class="slider__content">
+								<div class="slider__desc-wrap">
+									<span class="slider__desc-numb">02</span>
+									<p class="slider__desc">Научитесь делать выразительную анимацию, передавать через изображение эмоцию.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/skills/skills-03.jpg" width="790" height="550" loading="lazy" alt="design">
+							</div>
+							<div class="slider__content">
+								<div class="slider__desc-wrap">
+									<span class="slider__desc-numb">03</span>
+									<p class="slider__desc">Освоите 3D анимацию.</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/skills/skills-04.jpg" width="790" height="550" loading="lazy" alt="design">
+							</div>
+							<div class="slider__content">
+								<div class="slider__desc-wrap">
+									<span class="slider__desc-numb">04</span>
+									<p class="slider__desc">Научитесь делать реалистичный рендер, выстраивать свет и работать с материалами.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slider__control">
+						<div class="slider__arrows-wrap">
+							<button class="btn slider__arrows-prev">
+								<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7 13L1 7L7 1" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</button>
+							<button class="btn slider__arrows-next">
+								<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1 13L7 7L1 1" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</button>
+						</div>
+						<div class="slider__pagination"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>

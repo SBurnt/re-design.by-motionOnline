@@ -1,0 +1,40 @@
+// ======= GLOBAL =======
+@import "normalize";
+@import "reset";
+@import "lib/swiper-bundle.min";
+// @import "lib/simplebar.min";
+// @import "lib/nouislider.min";
+// @import "lib/choices.min";
+@import "constants";
+@import "lib/base";
+@import "global";
+@import "layout";
+// @import 'controls';
+
+// ======= PAGES =======
+@import "pages/index-page";
+
+// ======= BLOCKS =======
+// @import "blocks/modals";
+@import "../../templates/blocks/header/header";
+@import "../../templates/blocks/footer/footer";
+@import "../../templates/blocks/profession/profession";
+@import "../../templates/blocks/whoIsDesigner/whoIsDesigner";
+@import "../../templates/blocks/forWhom/forWhom";
+@import "../../templates/blocks/help/help";
+@import "../../templates/blocks/form/form";
+@import "../../templates/blocks/trainingProgram/trainingProgram";
+@import "../../templates/blocks/tools/tools";
+@import "../../templates/blocks/skills/skills";
+@import "../../templates/blocks/education/education";
+@import "../../templates/blocks/whoWork/whoWork";
+@import "../../templates/blocks/ticker/ticker";
+@import "../../templates/blocks/teachers/teachers";
+@import "../../templates/blocks/certificate/certificate";
+@import "../../templates/blocks/cost/cost";
+@import "../../templates/blocks/questions/questions";
+
+// ======= COMPONENTS =======
+@import "../../components/logo/logo";
+@import "../../components/social/social";
+@import "../../components/phones/phones";

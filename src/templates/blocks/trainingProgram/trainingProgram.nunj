@@ -1,0 +1,99 @@
+<section class="trainingProgram" id="trainingProgram-scroll">
+	<div class="container">
+		<div class="section__inner line">
+			<h2 class="section__subtitle display-mob">
+				<strong>Подробная программа обучения</strong>
+			</h2>
+			<div class="trainingProgram__img-wrap">
+				<img class="trainingProgram__img lazyload" src="#" data-src="assets/images/main/trainingProgram.jpg" width="530" height="550" loading="lazy" alt="">
+			</div>
+			<div class="trainingProgram__content">
+				<h2 class="section__subtitle">
+					<strong>Подробная программа обучения</strong>
+				</h2>
+				<ul class="trainingProgram__list accordion__list">
+					<li class="trainingProgram__item accordion__item open">
+						<button class="btn trainingProgram__btn accordion__control" aria-expanded="false">
+							{# <span class="trainingProgram__num">01</span> #}
+							<div class="trainingProgram__title-wrap">
+								<div>
+									{# <span class="trainingProgram__title">1 модуль (1 семестр):</span> #}
+									<span class="trainingProgram__title">Adobe After Effects</span>
+								</div>
+								<span class="trainingProgram__icon">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>
+							</div>
+						</button>
+						<div class="trainingProgram__info accordion__content" aria-hidden="true">
+							<p class="trainingProgram__desc">Освоите принципы работы в программе и сможете анимировать готовый контент.</p>
+							{# <ul class="trainingProgram__list-tech">
+								<li class="trainingProgram__list-item">Композиция</li>
+								<li class="trainingProgram__list-item">Колористика</li>
+								<li class="trainingProgram__list-item">Adobe Photoshop</li>
+								<li class="trainingProgram__list-item">Стили в дизайне интерьеров</li>
+								<li class="trainingProgram__list-item">Разработка концепции интерьера</li>
+								<li class="trainingProgram__list-item">Интерьерный скетчинг</li>
+							</ul> #}
+						</div>
+					</li>
+					<li class="trainingProgram__item accordion__item">
+						<button class="btn trainingProgram__btn accordion__control" aria-expanded="false">
+							{# <span class="trainingProgram__num">02</span> #}
+							<div class="trainingProgram__title-wrap">
+								<div>
+									{# <span class="trainingProgram__title">1 модуль (2 семестр):</span> #}
+									<span class="trainingProgram__title">Adobe Premiere PRO</span>
+								</div>
+								<span class="trainingProgram__icon">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>
+							</div>
+						</button>
+						<div class="trainingProgram__info accordion__content" aria-hidden="true">
+							<p class="trainingProgram__desc">Научитесь создавать шоурил ролики.</p>
+							{# <ul class="trainingProgram__list-tech">
+								<li class="trainingProgram__list-item">Эргономика</li>
+								<li class="trainingProgram__list-item">Revit</li>
+								<li class="trainingProgram__list-item">Интерьерное материаловедение</li>
+								<li class="trainingProgram__list-item">Инженерно-техническое обеспечение дизайна</li>
+								<li class="trainingProgram__list-item">Светодизайн</li>
+								<li class="trainingProgram__list-item">DiaLux</li>
+								<li class="trainingProgram__list-item">Декорирование</li>
+								<li class="trainingProgram__list-item">Комплектация проекта</li>
+							</ul> #}
+						</div>
+					</li>
+					<li class="trainingProgram__item accordion__item">
+						<button class="btn trainingProgram__btn accordion__control" aria-expanded="false">
+							{# <span class="trainingProgram__num">03</span> #}
+							<div class="trainingProgram__title-wrap">
+								<div>
+									{# <span class="trainingProgram__title">2 модуль (3 семестр):</span> #}
+									<span class="trainingProgram__title">Cinema4D</span>
+								</div>
+								<span class="trainingProgram__icon">
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>
+							</div>
+						</button>
+						<div class="trainingProgram__info accordion__content" aria-hidden="true">
+							<p class="trainingProgram__desc">Узнаете основы построения объектов 3d-анимации, как создавать графические примитивы, будете работать с плагинами, подключать уже готовые модели и делать рендеры.</p>
+							{# <ul class="trainingProgram__list-tech">
+								<li class="trainingProgram__list-item">Создание 3D  визуализации проекта в 3D MAX</li>
+								<li class="trainingProgram__list-item">Бизнес в дизайне интерьеров</li>
+								<li class="trainingProgram__list-item">Итоговый проект</li>
+							</ul> #}
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

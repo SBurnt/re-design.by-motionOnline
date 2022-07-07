@@ -1,0 +1,23 @@
+<div class="whoWork">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__subtitle">
+				кем вы <strong>БУДЕТЕ работать после</strong> окончания <strong>обучения?</strong>
+			</h2>
+			<ul class="whoWork__list">
+				<li class="whoWork__item">
+					<span class="whoWork__title">Junior motion дизайнер</span>
+					<span class="whoWork__salary">от <span>1500 BYN</span></span>
+				</li>
+				<li class="whoWork__item">
+					<span class="whoWork__title">Middle motion дизайнер</span>
+					<span class="whoWork__salary">от <span>2800 BYN</span></span>
+				</li>
+				<li class="whoWork__item">
+					<span class="whoWork__title">Senior motion дизайнер</span>
+					<span class="whoWork__salary">от <span>4000 BYN</span></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

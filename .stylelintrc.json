@@ -1,0 +1,26 @@
+{
+	"extends": ["stylelint-config-airbnb", "stylelint-config-rational-order", "stylelint-prettier/recommended"],
+	"plugins": ["stylelint-order", "stylelint-scss"],
+	"rules": {
+		"prettier/prettier": [true, { "singleQuote": false, "tabWidth": 2 }],
+		"plugin/rational-order": [
+			true,
+			{
+				"border-in-box-model": true,
+				"empty-line-between-groups": true
+			}
+		],
+		"indentation": "tab",
+		"color-hex-case": "lower",
+		"selector-attribute-quotes": "always",
+		"selector-attribute-operator-space-before": "never",
+		"selector-attribute-operator-space-after": "never",
+		"declaration-block-trailing-semicolon": "always",
+		"declaration-colon-space-before": "never",
+		"declaration-colon-space-after": "always",
+		"function-url-quotes": "never",
+		"media-feature-parentheses-space-inside": "never",
+		"media-feature-colon-space-before": "never",
+		"media-feature-colon-space-after": "always"
+	}
+}

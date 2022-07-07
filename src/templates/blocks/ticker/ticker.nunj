@@ -1,0 +1,32 @@
+<div class="ticker">
+	<div class="section__inner">
+		<div class="swiper-container js-slider-ticker-init">
+			<ul class="swiper-wrapper ticker__list">
+				<li class="swiper-slide ticker__item semicircle-l"></li>
+				<li class="swiper-slide ticker__item rotateMinus15deg">
+					<div class="ticker__img-wrap">
+						<img class="ticker__img lazyload" src="#" data-src="assets/images/main/ticker/ticker-01.jpg" width="350" height="205" loading="lazy" alt="">
+					</div>
+				</li>
+				<li class="swiper-slide ticker__item semicircle-r"></li>
+				<li class="swiper-slide ticker__item semicircle-l"></li>
+				<li class="swiper-slide ticker__item rotatePlus15deg">
+					<div class="ticker__img-wrap">
+						<img class="ticker__img lazyload" src="#" data-src="assets/images/main/ticker/ticker-02.jpg" width="350" height="205" loading="lazy" alt="">
+					</div>
+				</li>
+				<li class="swiper-slide ticker__item REdesign">
+					<div class="ticker__img-wrap">
+						<img class="ticker__img lazyload" src="#" data-src="assets/images/main/ticker/ticker-REdesign.svg" width="280" height="280" loading="lazy" alt="">
+					</div>
+				</li>
+				<li class="swiper-slide ticker__item rotateMinus15deg">
+					<div class="ticker__img-wrap">
+						<img class="ticker__img lazyload" src="#" data-src="assets/images/main/ticker/ticker-03.jpg" width="350" height="205" loading="lazy" alt="">
+					</div>
+				</li>
+				<li class="swiper-slide ticker__item semicircle-r"></li>
+			</ul>
+		</div>
+	</div>
+</div>

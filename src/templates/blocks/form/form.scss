@@ -1,0 +1,243 @@
+.form {
+  background-color: $bg-body-dark;
+
+  .section__inner {
+    display: flex;
+
+    @include media("max", "md") {
+      flex-direction: column;
+    }
+  }
+
+  .section__subtitle {
+    width: 85vw;
+    max-width: 670px;
+    margin: 40px 0;
+		text-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+
+    @include media("max", "lg") {
+      margin: 30px 0;
+    }
+    @include media("max", "md") {
+      width: auto;
+      margin: 20px 0 40px;
+    }
+  }
+
+  &__content {
+    z-index: 1;
+
+    width: 35%;
+    max-width: 473px;
+    margin-right: var(--mr-100-40);
+
+    @include media("max", "md") {
+      order: 1;
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
+  &__img-wrap {
+    position: relative;
+
+    width: 65%;
+    height: 600px;
+    overflow: hidden;
+
+    border-radius: 4px;
+
+    @include media("max", "md") {
+      width: 100%;
+      height: 200px;
+    }
+
+		.full-img__video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      // z-index: 1;
+
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        background: rgba(0, 0, 0, 0.4);
+        background: linear-gradient(0deg, rgba(75, 91, 104, 0.3), rgba(75, 91, 104, 0.3));
+      }
+
+      .video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        min-width: 100%;
+        min-height: 100%;
+
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 30px;
+
+    @include media("max", "lg") {
+      &.red {
+        padding: 16px;
+      }
+    }
+  }
+  &__label {
+    position: relative;
+
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+
+      @include media("max", "md") {
+        margin-bottom: 14px;
+      }
+    }
+
+    &:last-child {
+      @include media("max", "md") {
+        margin-bottom: 14px;
+      }
+    }
+
+    &.has-error {
+      .form__input {
+        border-color: $color-red;
+      }
+
+      .form__input-error {
+        display: block;
+      }
+    }
+  }
+
+  &__input {
+    width: 100%;
+    padding: 23px 40px 11px 15px;
+
+    font-size: 14px;
+    line-height: 19px;
+
+    background: #ffffff;
+    border: 2px solid #d8d6d6;
+    border-radius: 3px;
+    outline: none;
+
+    @include media("max", "md") {
+      padding: 21px 40px 9px 15px;
+
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    &.has__error {
+      border-color: $color-red;
+    }
+
+    &:focus,
+    &:not([value=""]) {
+      background: #ffffff;
+    }
+
+    &:focus + .form__input-placeholder,
+    &:hover + .form__input-placeholder,
+    &:not([value=""]) + .form__input-placeholder {
+      font-size: 12px;
+      line-height: 16px;
+
+      transform: translate3d(0, -10px, 0);
+
+      @include media("max", "md") {
+        font-size: 10px;
+        line-height: 14px;
+      }
+    }
+  }
+
+  &__input-placeholder {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+
+    transition: transform 0.15s ease, font-size 0.15s ease;
+
+    pointer-events: none;
+
+    @include media("max", "md") {
+      top: 17px;
+
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  &__input-error {
+    position: absolute;
+    bottom: -14px;
+    left: 5px;
+    // display: none;
+
+    font-size: 12px;
+    line-height: 14px;
+    color: $color-red !important;
+
+    @include media("max", "md") {
+      top: -5px;
+
+      font-size: 10px;
+      line-height: 12;
+    }
+  }
+
+  &__thanks {
+    margin-top: 15px;
+
+    font-size: var(--fs-18-14);
+    line-height: 120%;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: all 0.15s ease;
+
+    &.active {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<div class="phones">
+	<a class="phones__main-link" href="tel:+375296600452">
+		+ 375 (29) <span>66 00 452</span></a>
+	<ul class="phones__dropdown-list">
+		<li class="phones__dropdown-item">
+			<a class="phones__dropdown-link" href="tel:+375336600452">+ 375 (33) 66 00 452</a>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,19 @@
+<div class="social">
+	<ul class="social__list">
+		<li class="social__item">
+			<a href="https://www.facebook.com/RedesignAC" class="social__link" target="_blank">
+				<img class="social__img lazyload" src="#" data-src="assets/images/ico/ico-facebook.svg" loading="lazy" alt="facebook">
+			</a>
+		</li>
+		<li class="social__item">
+			<a href="https://www.instagram.com/redesignac/" class="social__link" target="_blank">
+				<img class="social__img lazyload" src="#" data-src="assets/images/ico/ico-instagram.svg" loading="lazy" alt="instagram">
+			</a>
+		</li>
+		{# <li class="social__item">
+			<a href="https://www.youtube.com/" class="social__link" target="_blank">
+				<img class="social__img lazyload" src="#" data-src="assets/images/ico/ico-youtube.svg" loading="lazy" alt="youtube">
+			</a>
+		</li> #}
+	</ul>
+</div>

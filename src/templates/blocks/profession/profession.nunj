@@ -1,0 +1,54 @@
+<section class="profession">
+	<div class="container">
+		<div class="section__inner">
+			<div class="slider">
+				<div class="swiper-container slider__container js-slider-profession-init">
+					<ul class="swiper-wrapper slider__list">
+						<li class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/profession-main-slider/profession-01.jpg" width="745" height="800" loading="lazy" alt="дизайн">
+							</div>
+						</li>
+						<li class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/profession-main-slider/profession-02.jpg" width="745" height="800" loading="lazy" alt="дизайн">
+							</div>
+						</li>
+						<li class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/profession-main-slider/profession-03.jpg" width="745" height="800" loading="lazy" alt="дизайн">
+							</div>
+						</li>
+						<li class="swiper-slide slider__item">
+							<div class="slider__img-wrap">
+								<img class="slider__img lazyload" src="#" data-src="assets/images/main/profession-main-slider/profession-04.jpg" width="745" height="800" loading="lazy" alt="дизайн">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="profession__content">
+				<h2 class="section__title">Профессия</h2>
+				<h2 class="profession__desc">
+					<strong>Motion</strong><br>
+					дизайнер
+				</h2>
+				<span class="profession__startDate">Старт обучения 21 августа</span>
+				<button class="btn red js-btn-scroll-to-form" data-scroll-block="form-scroll" data-type="Записаться на курс">записаться на курс</button>
+				<div class="slider__arrows-wrap">
+					<button class="btn slider__arrows-prev">
+						<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7 13L1 7L7 1" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</button>
+					<button class="btn slider__arrows-next">
+						<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 13L7 7L1 1" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>

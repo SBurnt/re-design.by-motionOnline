@@ -1,0 +1,51 @@
+<section class="questions">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__subtitle">
+				<strong>Часто задаваемые вопросы</strong>
+			</h2>
+			<ul class="questions__list">
+				<li class="questions__item accordion__item">
+					<button class="btn questions__btn accordion__control" aria-expanded="false">
+						<span class="questions__name">Подходит ли мне эта программа обучения?</span>
+						<span class="questions__btn-plus"></span>
+					</button>
+					<div class="questions__content accordion__content" aria-hidden="true">
+						<p class="questions__answer">Программа курса и процесс обучения разработаны таким образом, что эффективно обучаться по ней могут как новички, так и более опытные люди.<br><br>
+							Эта программа обучения представляет из себя последовательное введение в профессию. Мы постарались тщательно выстроить траекторию обучения и структурировать знания наших экспертов, чтобы сложная информация была доступной для понимания и погружение в новую дисциплину было максимально последовательным.<br><br>
+							Таким образом, вы можете начать обучение дизайну интерьера с отсутствием базовых знаний в дизайне, а по завершению обучения вы будете готовы начать работу над задачами ваших клиентов.
+						</p>
+					</div>
+				</li>
+				<li class="questions__item accordion__item">
+					<button class="btn questions__btn accordion__control" aria-expanded="false">
+						<span class="questions__name">Как проходит обучение?</span>
+						<span class="questions__btn-plus"></span>
+					</button>
+					<div class="questions__content accordion__content" aria-hidden="true">
+						<p class="questions__answer">Большая часть занятий проходит офлайн. Мы убеждены, что освоение такой профессии как графический дизайнер более эффективно при аудиторном обучении в тесном контакте с преподавателем и коллегами по обучению.</p>
+					</div>
+				</li>
+				<li class="questions__item accordion__item">
+					<button class="btn questions__btn accordion__control" aria-expanded="false">
+						<span class="questions__name">Какие есть варианты оплаты обучения?</span>
+						<span class="questions__btn-plus"></span>
+					</button>
+					<div class="questions__content accordion__content" aria-hidden="true">
+						<p class="questions__answer">У нас предусмотрены скидки при оплате за модуль или полный курс. При уплате за Первый модуль в два этапа вам предоставляется скидка в размере 5%, при уплате за весь модуль единым платежом — 7%. При уплате за Второй модуль единым платежом предоставляется скидка в размере 5%</p>
+					</div>
+				</li>
+				<li class="questions__item accordion__item">
+					<button class="btn questions__btn accordion__control" aria-expanded="false">
+						<span class="questions__name">Помогаете ли вы с трудоустройством?</span>
+						<span class="questions__btn-plus"></span>
+					</button>
+					<div class="questions__content accordion__content" aria-hidden="true">
+						<p class="questions__answer">Ваше карьерное развитие и трудоустройство является для нас одной из приоритетных задач. Для этого мы подбираем партнеров, которые могут проконсультировать вас на тему развития карьеры.<br><br>
+							Мы часто получаем запросы от работодателей по поиску и подбору специалистов, и с радостью делимся портфолио и контактами студентов, которые показали хорошие результаты на курсе и находятся в активном поиске работы.</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,27 @@
+<section class="forWhom">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__title">Для кого этот курс?</h2>
+
+			<ul class="forWhom__list">
+				<li class="forWhom__item">
+					<div class="forWhom__number">1</div>
+					<h3 class="forWhom__title">Для тех, кто мечтает стать motion дизайнером</h3>
+					<p class="forWhom__desc">Вы давно мечтаете о новой профессии, но не знаете с чего начать, какие инструменты использовать.</p>
+				</li>
+				<li class="forWhom__item">
+					<div class="forWhom__number">2</div>
+					<h3 class="forWhom__title">Для тех, кто уже работает в сфере дизайна</h3>
+					<p class="forWhom__desc">Вы связаны со сферой дизайна, но хотите расширить свои профессиональные компетенции</p>
+				</li>
+				<li class="forWhom__item">
+					<div class="forWhom__number">3</div>
+					<h3 class="forWhom__title">Для тех, кто связан со сферой маркетинга, социальными сетями</h3>
+					<p class="forWhom__desc">Вы хотите добавить в свой контент видео графику, анимированные презентации и материалы</p>
+				</li>
+			</ul>
+
+			<button class="btn red js-btn-scroll-to-form" data-scroll-block="form-scroll" data-type="Записаться на курс">записаться на курс</button>
+		</div>
+	</div>
+</section>

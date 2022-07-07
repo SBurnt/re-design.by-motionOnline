@@ -1,0 +1,27 @@
+<section class="tools">
+	<div class="container">
+		<div class="section__inner line">
+			<h2 class="section__title">программы и инструменты</h2>
+			<h2 class="section__subtitle">
+				На курсе <strong>вы сможете овладеть</strong> такими программами как <strong>Adobe After Effects, Adobe Premiere PRO, Cinema4D.</strong>
+			</h2>
+			<ul class="tools__list">
+				<li class="tools__item">
+					<div class="tools__img-wrap">
+						<img class="tools__img lazyload" src="#" data-src="assets/images/ico/tools/tool-AdobeAfterEffects.png" width="120" height="120" loading="lazy" alt="ico tool tool-AdobeAfterEffects">
+					</div>
+				</li>
+				<li class="tools__item">
+					<div class="tools__img-wrap">
+						<img class="tools__img lazyload" src="#" data-src="assets/images/ico/tools/tool-Cinema4d.png" width="120" height="120" loading="lazy" alt="ico tool Cinema4d">
+					</div>
+				</li>
+				<li class="tools__item">
+					<div class="tools__img-wrap">
+						<img class="tools__img lazyload" src="#" data-src="assets/images/ico/tools/tool-PremierePRO.png" width="120" height="120" loading="lazy" alt="ico tool PremierePRO">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

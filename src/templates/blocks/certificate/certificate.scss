@@ -1,0 +1,101 @@
+.certificate {
+  background: $bg-body-dark;
+
+  .section__title {
+    &.right {
+      @include media("max", "lg") {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    margin: 0 60px;
+
+    @include media("max", "lg") {
+      margin: 0;
+
+      grid-template-columns: none;
+      grid-template-rows: none;
+    }
+
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 50px 2fr;
+  }
+
+  &__list {
+    order: 2;
+  }
+
+  &__img-wrap {
+    order: 1;
+
+    @include media("max", "lg") {
+      grid-row: none;
+    }
+
+    grid-row: span 2;
+  }
+
+  &__img-cont {
+    padding: 20px 16px;
+
+    background-color: #ffffff;
+    border-radius: 4px;
+
+    @include media("max", "lg") {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 10px 8px;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 4px;
+    object-fit: contain;
+  }
+
+  &__item {
+    position: relative;
+
+    padding-left: 50px;
+
+    font-size: var(--fs-20-18);
+    line-height: 150%;
+
+    @include media("max", "md") {
+      line-height: 130%;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+
+      @include media("max", "md") {
+        margin-bottom: 20px;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+
+      width: 30px;
+      height: 30px;
+
+      background-image: url(../images/ico/ico-check-certificate.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      transform: translateY(-50%);
+    }
+  }
+}

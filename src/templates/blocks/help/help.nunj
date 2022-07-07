@@ -1,0 +1,21 @@
+<section class="help">
+	<div class="container">
+		<div class="section__inner">
+			<h2 class="section__subtitle right">Поможем <strong>построить карьеру</strong> в сфере дизайна</h2>
+			<ul class="help__list">
+				<li class="help__item">
+					<p class="help__text">Мы проведем серию встреч с HR-специалистами, фрилансерами, опытными дизайнерами, которые помогут разобраться со стартом карьеры в сфере дизайна</p>
+				</li>
+				<li class="help__item">
+					<p class="help__text">Проработаем вместе резюме и портфолио</p>
+				</li>
+				<li class="help__item">
+					<p class="help__text">Расскажем про рынок труда, компании и как искать работу</p>
+				</li>
+				<li class="help__item">
+					<p class="help__text">Расскажем как можно развиваться в сфере дизайна</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>

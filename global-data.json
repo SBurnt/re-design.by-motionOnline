@@ -1,0 +1,33 @@
+{
+	"navItems": [
+		{
+			"name": "Каталог",
+			"path": "catalog.html",
+			"classActive": "active"
+		},
+		{
+			"name": "О компании",
+			"path": "about-company.html"
+		},
+		{
+			"name": "Галерея",
+			"path": "gallery.html"
+		},
+		{
+			"name": "Сотрудничество",
+			"path": "cooperation.html"
+		},
+		{
+			"name": "Советы",
+			"path": "advice.html"
+		},
+		{
+			"name": "Прайс",
+			"path": "assets/files/price.pdf"
+		},
+		{
+			"name": "Контакты",
+			"path": "contacts.html"
+		}
+	]
+}

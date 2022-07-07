@@ -1,0 +1,25 @@
+.social {
+  // justify-self: flex-end;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 20px;
+
+    @include media("max", "md") {
+      margin-right: 8px;
+    }
+  }
+
+  &__img {
+    width: 40px;
+    height: 40px;
+
+    @include media("max", "md") {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
