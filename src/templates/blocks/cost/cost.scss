@@ -26,7 +26,8 @@
 
   .section__subtitle {
     width: 100%;
-    max-width: 1120px;
+    // max-width: 1120px;
+		text-align: center;
 
     @include media("max", "xl") {
       order: 1;

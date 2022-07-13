@@ -3,7 +3,7 @@
 		<div class="section__inner">
 			<div class='cost__wrap-title'>
 				<h2 class="section__subtitle">Стоимость	<strong>и продолжительность</strong> обучения</h2>
-				<h2 class="section__title right">Покупка курса по модулям</h2>
+				{# <h2 class="section__title right">Покупка курса по модулям</h2> #}
 			</div>
 			<ul class="cost__list">
 				{# <li class="cost__item item">
